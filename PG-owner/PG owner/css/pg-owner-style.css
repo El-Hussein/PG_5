@@ -1,0 +1,63 @@
+.arabic{
+    direction: rtl;
+}
+body{
+    height: 10000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont{width:1200px;margin:auto}
+
+@font-face{
+    font-family:Jazeel-Bold;
+    src:url(../Fonts/Jazeel-Bold.otf)
+}
+
+@font-face{
+    font-family:SOGAND;
+    src:url(../Fonts/SOGAND.ttf)
+}
+
+@font-face{
+    font-family:VIP-Hala-Bold;
+    src:url('../Fonts/VIP-Hala-Bold.otf')
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+.tb{
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.tb table tr td{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.tb table tr td:last-child{
+    padding: 0px;
+    background: #f00 ;
+    
+}
+
+.tb table tr td input{
+    background:none;
+    color: #fff;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tb2{
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.tb2 table tr td{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 10px;
+    font-size: 30px;
+}

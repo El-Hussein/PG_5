@@ -1,0 +1,64 @@
+.arabic{
+    direction: rtl;
+}
+body{
+    height: 10000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont{width:1200px;margin:auto}
+
+@font-face{
+    font-family:Jazeel-Bold;
+    src:url(../Fonts/Jazeel-Bold.otf)
+}
+
+@font-face{
+    font-family:SOGAND;
+    src:url(../Fonts/SOGAND.ttf)
+}
+
+@font-face{
+    font-family:VIP-Hala-Bold;
+    src:url('../Fonts/VIP-Hala-Bold.otf')
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+
+
+.top{
+    margin: 50px 358px;
+    text-align: center;
+    
+}
+
+.top p{
+    font-family: VIP-Hala-Bold;
+    font-size: 30px;
+    color: #fff;
+    background-color: #6e1bad;
+}
+
+.tb{
+    background-color: #ccc;
+    width: 100%;
+}
+
+.tb ul{
+    float: right;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.tb ul li{
+    float: right;
+    width: 20%;
+    font-size: 42px;
+    text-align: center;
+
+    
+}

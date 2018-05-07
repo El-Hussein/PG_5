@@ -1,0 +1,119 @@
+.arabic{
+    direction: rtl;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+
+.cont{width:1200px;margin:auto}
+
+@font-face{
+    font-family:Jazeel-Bold;
+    src:url('../Fonts/Jazeel-Bold.otf');
+}
+
+@font-face{
+    font-family:SOGAND;
+    src:url(../Fonts/SOGAND.ttf);
+}
+
+@font-face{
+    font-family:VIP-Hala-Bold;
+    src:url('../Fonts/VIP-Hala-Bold.otf');
+}
+
+
+/* --------------------------------------------- Starting Header -----------------------------------------------*/
+
+header {
+    background: #6e1bad;
+    height: 82px;
+    width: 100%;
+}
+
+a{
+    color: #fff;
+}
+header ul 
+{
+    margin: 0px;
+    list-style: none;
+    float: right;
+    color: #fff;
+    
+    
+}
+header ul li
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:VIP-Hala-Bold;  
+    float: left;
+    padding: 25px 20px;
+    margin-left: 70px;
+    margin-right: 20px
+}
+
+header ul .active{
+    background-color: #ed145b;
+    height: 50px;
+}
+header div.left {
+    float: left;
+    background: #fff;
+    height: 82px;
+    width: 284px;
+
+}
+
+header div.left img{
+    width: 150px;
+    height: 119px;
+    transform: scale(1.3);
+    margin-top: 3px;
+    margin-left: 60px;
+    
+}
+
+/* ---------------------------------------- Ending Header ----------------------------------------------------*/
+
+
+
+/*---------------------------------------- Starting content -----------------------------------------------------*/
+
+
+.content ul{
+    list-style: none;
+    float: left;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.content ul li{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    background: #fff;
+    
+}
+
+
+.content ul li img{
+    width: 287px;
+    height: 190px;
+    padding: 3px;
+}
+
+.content ul li p
+{
+    font-size: 20px;
+    font-family: VIP-Hala-Bold;
+}
+/*---------------------------------------- Ending content -----------------------------------------------------*/
+
