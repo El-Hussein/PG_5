@@ -709,3 +709,38 @@ setInterval(GetClock,1000);
     </body>
 
 </html>
+
+
+
+<div class="right">
+                <a href="{{ route('register') }}" target="_blank" style="color: #fff"><span>Register</span></a>
+                   <!-- <a href="pages/regestration/reg.html" target="_blank" style="color: #fff"><span>Register</span></a>-->
+                  <!--  <span style="padding-left: 0px">||</span>-->
+                <span class="login" style="text-align: center;padding: 15px 34px ">
+                    Login
+                      <form method="POST" action="{{ route('login') }}">
+                        <!-- @csrf -->
+                        <ul>
+                           <li> 
+                             <input id="email" type="email" placeholder="Enter your email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+
+                                    @if ($errors->has('email'))
+                                        <span class="invalid-feedback">
+                                            <strong>{{ $errors->first('email') }}</strong>
+                                        </span>
+                                    @endif
+                                    </li>
+                                    <li>   
+                                        <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+
+                                    @if ($errors->has('password'))
+                                        <span class="invalid-feedback">
+                                            <strong>{{ $errors->first('password') }}</strong>
+                                        </span>
+                                    @endif
+                                    </li> 
+                           <li><button type="submit" >Login</button></li>
+                        </ul> 
+                    <form>   
+                </span>
+            </div>

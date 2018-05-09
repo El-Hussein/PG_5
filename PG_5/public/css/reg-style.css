@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  background: url('../images/reg.PNG');
+    background-size: cover;
+    
+}
+
+fieldset{
+    width:30%;
+    height: 600px;
+    margin: 50px auto;
+    border: 3px solid #fff;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(0 , 0 , 0 ,0.5);
+}
+
+fieldset legend{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #ccc;
+}
+
+fieldset legend input{
+    margin-top : 87px;
+    background: #ccc;
+    border: 0px;
+    
+}
+
+fieldset label{
+    color: #fff;
+    width: 50%;
+}
+fieldset input{
+    margin-top: 30px;
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    text-align: center;
+}
+#but{
+    height: 40px;
+    font-family: serif;
+    font-size: 20px;
+    background: #6e1bad;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    
+}
+#but:hover{
+    background: #ed145b;
+    cursor: pointer;
+}
